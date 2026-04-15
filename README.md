@@ -7,9 +7,9 @@ Ce script automatise le processus de **revue, d'approbation et de rejet** des en
 Le script analyse les enquêtes soumises, vérifie la cohérence des données, le respect des protocoles (temps, GPS, consentement) et applique des décisions automatiques (Approbation ou Rejet avec commentaires précis pour l'enquêteur).
 
 ### Points clés :
- **Technologie :** Python 3.x (API REST, Tenacity pour la résilience réseau).
- **Source de données :** Serveur Survey Solutions (TOUTON).
- **Collaboration :** Logique métier propriétaire avec support de Claude.AI pour les couches de logging et de gestion d'erreurs complexes.
+* **Technologie :** Python 3.x (API REST, Tenacity pour la résilience réseau).
+* **Source de données :** Serveur Survey Solutions (TOUTON).
+* **Collaboration :** Logique métier propriétaire avec support de Claude.AI pour les couches de logging, la gestion d'erreurs complexes et pour la robustesse du script.
 
 ## 🛠️ Critères de Validation (Logique Métier)
 
