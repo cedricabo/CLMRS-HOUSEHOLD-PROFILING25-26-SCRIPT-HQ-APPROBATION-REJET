@@ -84,11 +84,11 @@ from tenacity import (
 CONFIG = {
     # ── Connexion ──────────────────────────────────────────────────────────────
     "hq_url":                  "https://mysurvey.touton.com",
-    "api_user":                "api_civ",
-    "api_password":            "Az_123456789",
+    "api_user":                "",
+    "api_password":            "",
     "workspace":               "primary",
-    "questionnaire_id":        "a61214e6-fa36-45c5-b436-5bfa3128d561",
-    "questionnaire_version":   6,
+    "questionnaire_id":        "",
+    "questionnaire_version":   ,
 
     # ── Statuts récupérés ─────────────────────────────────────────────────────
     "status_to_fetch": [
